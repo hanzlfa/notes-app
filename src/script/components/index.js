@@ -1,0 +1,6 @@
+import './app-bar.js'
+import './footer-bar.js'
+import './add-note.js'
+import './loading-indicator.js'
+import './note-container.js'
+import './archived-notes.js'

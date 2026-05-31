@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="icon" href="icon.png" sizes="48x48" />
+  </head>
+  <body>
+    <header>
+      <app-bar app-title="My Notes"></app-bar>
+    </header>
+
+    <main>
+      <div class="app-container">
+        <add-note></add-note>
+        <note-container></note-container>
+      </div>
+      <br />
+      <div class="note-archived">
+        <h2><i class="uil uil-archive archive-note"></i> Archived Notes</h2>
+        <archived-notes></archived-notes>
+      </div>
+    </main>
+
+    <footer>
+      <footer-bar></footer-bar>
+    </footer>
+    <loading-indicator id="loadingIndicator"></loading-indicator>
+  </body>
+</html>
